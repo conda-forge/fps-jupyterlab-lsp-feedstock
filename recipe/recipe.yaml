@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.1"
+  version: "0.2.2"
 
 package:
   name: fps-jupyterlab-lsp
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/f/fps-jupyterlab-lsp/fps_jupyterlab_lsp-${{ version }}.tar.gz
-    sha256: c6fd4c7c282b5631a887d84ae1bd4fe7147dddd41848b1257342e78cecaf6757
+    sha256: ffd4744fc20965b1ecc68b7dde7e7a74bb35086563ba69f6fe33084267ccfadc
 
 build:
   noarch: python
